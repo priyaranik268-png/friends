@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Friendship Day sapna</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#000428,#004e92);
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:lightblue;
+text-align:center;
+}
+
+.card{
+width:90%;
+max-width:800px;
+padding:40px;
+background:rgba(255,255,255,.12);
+border-blackius:20px;
+backdrop-filter:blur(8px);
+box-shadow:0 0 20px cyan;
+animation:fade 2s;
+}
+
+h1{
+font-size:45px;
+color:#00ffff;
+margin-bottom:20px;
+}
+
+h2{
+color:#ffd700;
+margin:20px 0;
+}
+
+p{
+font-size:20px;
+line-height:35px;
+}
+
+.heart{
+position:absolute;
+color:#ff4d6d;
+font-size:25px;
+animation:float 8s linear infinite;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh);
+opacity:0;
+}
+20%{opacity:1;}
+100%{
+transform:translateY(-120vh);
+opacity:0;
+}
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:scale(.8);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="card"
+
+<h1><b>Happy Friendship Day!🧿</b><br></h1>
+<p>🫠
+<b>Some people become friends,
+but you became my biggest support.<b><br>
+
+You always protect me,
+stand beside me,
+and support me in every situation.
+</p>
+<h2>💖 Dear sapna 💖</h2>
+<p>
+<b>✨ We first met on 4 October,
+and that day became the beginning
+of a beautiful friendship.</b><br>
+
+Thank you for always being there for me.<br>
+
+Happy Friendship Day! ❤️🌸
+</p>
+
+<br>
+
+<p style="color:#00ffff;font-size:22px;">
+✨ Some friendships are written by fate,<br>
+Some are built with trust,<br>
+But ours is filled with beautiful memories<br>
+that will last forever... 💙
+</p>
+
+<br>
+
+<h3>Forever Friends ❤️</h3>
+
+</div>
+
+<script>
+
+setInterval(()=>{
+
+let h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML="💖";
+
+h.style.left=Math.random()*100+"%";
+
+h.style.fontSize=(20+Math.random()*25)+"px";
+
+document.body.appendChild(h);
+
+setTimeout(()=>{
+
+h.remove();
+
+},8000);
+
+},300);
+
+</script>
+
+</body>
+</html>
